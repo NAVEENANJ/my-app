@@ -1,5 +1,5 @@
 node{
-   stage('SCM Checkout'){
+   stage('SCM Checkouts'){
      git 'https://github.com/naveenanj/my-app.git'
    }
    stage('maven-buildstage'){
